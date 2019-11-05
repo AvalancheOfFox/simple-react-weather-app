@@ -6,8 +6,10 @@ import ForecastContainer from './ForecastContainer.js'
 class App extends React.Component {
   render(){
     return (
+      <div>
       <Header title={"Weather Near You"}/>
       <ForecastContainer />
+      </div>
   );
   }
 }
